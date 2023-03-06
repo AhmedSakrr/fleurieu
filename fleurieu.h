@@ -9,5 +9,7 @@
 
 void log_message(char* message);
 void log_error(char* message);
+void send_message(char* message, int socket);
+void recieve_message(int socket, char* buffer);
 
 #endif
